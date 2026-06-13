@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-13T23:57:20+03:00",
+    "generated_at_moscow": "2026-06-14T00:00:23+03:00",
     "market_mode": "WEEKEND / FOREX CLOSED",
     "agent": {
       "name": "AI Agent V10",
@@ -285,7 +285,7 @@
       "suppressed_total": 0
     },
     "night": {
-      "latest_session_date": "2026-06-13",
+      "latest_session_date": "2026-06-14",
       "latest_session": {
         "approved_records": 0,
         "rejected_shadow_records": 2432,
