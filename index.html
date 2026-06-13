@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Agent V10 — Публичная статистика</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-hero-image" aria-hidden="true"></div>
+  <div class="bg-hero-overlay" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <main class="page">
+    <header class="hero">
+      <section class="hero-left">
+        <div class="eyebrow">ПУБЛИЧНАЯ СТАТИСТИКА · READ ONLY</div>
+        <h1>AI Agent <span>V10</span></h1>
+        <p class="subtitle">Публичная витрина торгового AI-агента: live-статистика, сигналы, пары, правила V10, pre-signal фокус и ночная лаборатория.</p>
+
+        <div class="hero-stats">
+          <article class="stat-card primary">
+            <div class="small-label">WR сегодня</div>
+            <div class="big" id="todayWr">—</div>
+            <div class="muted" id="todayWinLoss">—</div>
+          </article>
+          <article class="stat-card">
+            <div class="small-label">Сигналы сегодня</div>
+            <div class="big" id="todaySignals">—</div>
+            <div class="muted">лимит 35 / день</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="hero-right">
+        <div class="status-card">
+          <div class="status-dot" id="statusDot"></div>
+          <div>
+            <div class="small-label">Статус рынка</div>
+            <div class="status-title" id="marketMode">Загрузка...</div>
+            <div class="muted" id="lastUpdate">—</div>
+          </div>
+        </div>
+
+        <div class="market-stage" aria-label="Торговые свечи">
+          <div class="chart-glow"></div>
+          <svg class="candle-chart" viewBox="0 0 720 360" role="img" aria-label="Декоративный график свечей">
+            <defs>
+              <linearGradient id="lineGrad" x1="0" x2="1">
+                <stop offset="0%" stop-color="#1e88ff" stop-opacity=".15"/>
+                <stop offset="45%" stop-color="#66e7ff" stop-opacity=".65"/>
+                <stop offset="100%" stop-color="#54e3a0" stop-opacity=".85"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+                <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <g class="grid-lines">
+              <path d="M40 70H680M40 130H680M40 190H680M40 250H680M40 310H680"/>
+              <path d="M90 40V320M170 40V320M250 40V320M330 40V320M410 40V320M490 40V320M570 40V320M650 40V320"/>
+            </g>
+            <path class="trend-area" d="M42 275 C90 250,130 270,178 230 C228 190,270 220,315 175 C365 130,410 160,455 120 C520 65,575 115,680 62 L680 330 L42 330 Z"/>
+            <path class="trend-line" d="M42 275 C90 250,130 270,178 230 C228 190,270 220,315 175 C365 130,410 160,455 120 C520 65,575 115,680 62"/>
+            <g class="candles" filter="url(#glow)">
+              <g class="up"><line x1="72" y1="230" x2="72" y2="302"/><rect x="61" y="246" width="22" height="38" rx="4"/></g>
+              <g class="down"><line x1="112" y1="210" x2="112" y2="290"/><rect x="101" y="220" width="22" height="48" rx="4"/></g>
+              <g class="up"><line x1="152" y1="198" x2="152" y2="282"/><rect x="141" y="218" width="22" height="42" rx="4"/></g>
+              <g class="down"><line x1="192" y1="202" x2="192" y2="292"/><rect x="181" y="218" width="22" height="56" rx="4"/></g>
+              <g class="up"><line x1="232" y1="176" x2="232" y2="260"/><rect x="221" y="196" width="22" height="44" rx="4"/></g>
+              <g class="up"><line x1="272" y1="150" x2="272" y2="238"/><rect x="261" y="174" width="22" height="46" rx="4"/></g>
+              <g class="down"><line x1="312" y1="152" x2="312" y2="245"/><rect x="301" y="162" width="22" height="54" rx="4"/></g>
+              <g class="up"><line x1="352" y1="126" x2="352" y2="220"/><rect x="341" y="150" width="22" height="48" rx="4"/></g>
+              <g class="up"><line x1="392" y1="112" x2="392" y2="198"/><rect x="381" y="136" width="22" height="42" rx="4"/></g>
+              <g class="down"><line x1="432" y1="124" x2="432" y2="220"/><rect x="421" y="136" width="22" height="60" rx="4"/></g>
+              <g class="up"><line x1="472" y1="88" x2="472" y2="182"/><rect x="461" y="118" width="22" height="42" rx="4"/></g>
+              <g class="up"><line x1="512" y1="68" x2="512" y2="162"/><rect x="501" y="94" width="22" height="46" rx="4"/></g>
+              <g class="down"><line x1="552" y1="90" x2="552" y2="188"/><rect x="541" y="98" width="22" height="62" rx="4"/></g>
+              <g class="up"><line x1="592" y1="70" x2="592" y2="154"/><rect x="581" y="92" width="22" height="42" rx="4"/></g>
+              <g class="up"><line x1="632" y1="54" x2="632" y2="142"/><rect x="621" y="76" width="22" height="44" rx="4"/></g>
+            </g>
+            <g class="price-tags"><rect x="600" y="52" width="86" height="30" rx="10"/><text x="616" y="72">LIVE WR</text></g>
+          </svg>
+          <div class="market-caption">
+            <span>MT5 primary</span><span>V10 Market Setup Brain</span><span>Read only</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="cards">
+      <article class="card accent-blue"><div class="small-label">WR за всё время</div><div class="big" id="allWr">—</div><div class="muted" id="allWinLoss">—</div></article>
+      <article class="card accent-gold"><div class="small-label">Торговое ядро V10</div><div class="big" id="coreLabel">6 правил</div><div class="muted" id="setupRecords">активные модели</div></article>
+      <article class="card accent-green"><div class="small-label">Режим работы</div><div class="big small-big">Live + Shadow</div><div class="muted">день — сигналы, ночь — обучение</div></article>
+    </section>
+
+    <section class="layout-two">
+      <article class="panel">
+        <div class="panel-head"><h2>Последние V10-сигналы</h2><span class="pill">Живая статистика</span></div>
+        <div class="table-wrap"><table><thead><tr><th>Время</th><th>Пара</th><th>Напр.</th><th>Exp</th><th>Rule</th><th>Результат</th></tr></thead><tbody id="recentSignals"><tr><td colspan="6">Загрузка...</td></tr></tbody></table></div>
+      </article>
+      <article class="panel focus-panel">
+        <div class="panel-head"><h2>Pre-signal фокус</h2><span class="pill warning">Режим оператора</span></div>
+        <div id="preSignalBox" class="stack muted">Загрузка...</div>
+      </article>
+    </section>
+
+    <section class="layout-two">
+      <article class="panel"><div class="panel-head"><h2>Статистика по парам</h2><span class="pill">Топ пары</span></div><div class="table-wrap"><table><thead><tr><th>Пара</th><th>WR</th><th>W/L</th><th>Всего</th></tr></thead><tbody id="pairStats"><tr><td colspan="4">Загрузка...</td></tr></tbody></table></div></article>
+      <article class="panel"><div class="panel-head"><h2>Статистика правил</h2><span class="pill">Правила V10</span></div><div class="table-wrap"><table><thead><tr><th>Rule</th><th>WR</th><th>W/L</th><th>Всего</th></tr></thead><tbody id="ruleStats"><tr><td colspan="4">Загрузка...</td></tr></tbody></table></div></article>
+    </section>
+
+    <section class="panel night-panel">
+      <div class="panel-head"><div><h2>Ночная статистика / Shadow Learning</h2><p class="muted">Ночь — это лаборатория. Она не влияет на live WR и не отправляет Telegram-сигналы.</p></div><span class="pill danger">Только исследование</span></div>
+      <div class="night-grid">
+        <div class="mini"><span>Сессия</span><b id="nightDate">—</b></div>
+        <div class="mini"><span>Approved</span><b id="nightApproved">—</b></div>
+        <div class="mini"><span>Rejected-shadow</span><b id="nightRejected">—</b></div>
+        <div class="mini"><span>Проверено</span><b id="nightChecked">—</b></div>
+      </div>
+      <div class="layout-two narrow">
+        <div class="table-wrap"><table><thead><tr><th>Пара</th><th>WR</th><th>W/L</th><th>Всего</th></tr></thead><tbody id="nightPairs"><tr><td colspan="4">Загрузка...</td></tr></tbody></table></div>
+        <div class="table-wrap"><table><thead><tr><th>Горизонт</th><th>WR</th><th>W/L</th><th>Всего</th></tr></thead><tbody id="nightHorizons"><tr><td colspan="4">Загрузка...</td></tr></tbody></table></div>
+      </div>
+    </section>
+
+    <section class="panel footer-panel">
+      <h2>О проекте</h2>
+      <p id="agentInfo" class="muted">AI Agent V10 использует MT5 primary, V10 Market Setup Brain и отдельную статистику V10 epoch. Доходность не гарантируется. Данные на странице информационные.</p>
+      <div class="footer-actions"><button id="refreshBtn">Обновить</button></div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
