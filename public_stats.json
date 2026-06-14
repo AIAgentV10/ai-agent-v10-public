@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T01:48:49+03:00",
+    "generated_at_moscow": "2026-06-15T01:51:56+03:00",
     "market_mode": "NIGHT SHADOW / OFF LIVE",
     "agent": {
       "name": "AI Agent V10",
@@ -288,7 +288,7 @@
       "latest_session_date": "2026-06-15",
       "latest_session": {
         "approved_records": 0,
-        "rejected_shadow_records": 2758,
+        "rejected_shadow_records": 2763,
         "checked": 0
       },
       "by_pair": [],
