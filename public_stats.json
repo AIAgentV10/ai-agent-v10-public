@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T12:35:46+03:00",
+    "generated_at_moscow": "2026-06-15T12:38:53+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -223,11 +223,11 @@
         },
         {
           "rule": "32G_ROBUST_SETUP_001",
-          "wins": 24,
+          "wins": 25,
           "losses": 20,
           "draws": 1,
-          "total": 45,
-          "wr": 54.55
+          "total": 46,
+          "wr": 55.56
         },
         {
           "rule": "32G_ROBUST_SETUP_014",
