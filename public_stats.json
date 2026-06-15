@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T12:20:09+03:00",
+    "generated_at_moscow": "2026-06-15T12:23:15+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -187,7 +187,7 @@
     },
     "setup": {
       "active_rules_count": 6,
-      "records_total": 325,
+      "records_total": 326,
       "by_rule": [
         {
           "rule": "32G_ROBUST_SETUP_006",
@@ -258,6 +258,14 @@
     "pre_signal": {
       "latest": [
         {
+          "pair": "CAD/JPY",
+          "direction": "BUY",
+          "horizon": 10,
+          "rule": "32G_ROBUST_SETUP_001",
+          "context": "3/4",
+          "last_sent_moscow": "2026-06-15T12:21:40+03:00"
+        },
+        {
           "pair": "CHF/JPY",
           "direction": "SELL",
           "horizon": 10,
@@ -280,14 +288,6 @@
           "rule": "32G_ROBUST_SETUP_004",
           "context": "3/4",
           "last_sent_moscow": "2026-06-15T11:52:36+03:00"
-        },
-        {
-          "pair": "CAD/JPY",
-          "direction": "BUY",
-          "horizon": 10,
-          "rule": "32G_ROBUST_SETUP_001",
-          "context": "3/4",
-          "last_sent_moscow": "2026-06-15T11:43:30+03:00"
         },
         {
           "pair": "EUR/JPY",
