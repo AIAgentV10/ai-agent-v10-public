@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T14:22:25+03:00",
+    "generated_at_moscow": "2026-06-15T14:25:34+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -13,18 +13,18 @@
     "live": {
       "source": "STRICT_TRADE_HISTORY_V10_LIVE_ONLY",
       "daily_cap": 35,
-      "today_signals_total": 14,
+      "today_signals_total": 15,
       "today": {
         "wins": 9,
-        "losses": 5,
+        "losses": 6,
         "draws": 0,
-        "wr": 64.29
+        "wr": 60.0
       },
       "all_time": {
         "wins": 15,
-        "losses": 7,
+        "losses": 8,
         "draws": 0,
-        "wr": 68.18
+        "wr": 65.22
       },
       "recent": [
         {
@@ -33,7 +33,7 @@
           "direction": "BUY",
           "expiration": 10,
           "rule": "32G_ROBUST_SETUP_001",
-          "result": "PENDING"
+          "result": "LOSS"
         },
         {
           "time": "2026-06-15T13:59:50",
@@ -128,10 +128,10 @@
         {
           "pair": "CAD/JPY",
           "wins": 7,
-          "losses": 2,
+          "losses": 3,
           "draws": 0,
-          "total": 9,
-          "wr": 77.78
+          "total": 10,
+          "wr": 70.0
         },
         {
           "pair": "AUD/JPY",
@@ -170,10 +170,10 @@
         {
           "rule": "32G_ROBUST_SETUP_001",
           "wins": 7,
-          "losses": 2,
+          "losses": 3,
           "draws": 0,
-          "total": 9,
-          "wr": 77.78
+          "total": 10,
+          "wr": 70.0
         },
         {
           "rule": "32G_ROBUST_SETUP_006",
@@ -248,10 +248,10 @@
         {
           "rule": "32G_ROBUST_SETUP_001",
           "wins": 26,
-          "losses": 21,
+          "losses": 22,
           "draws": 1,
-          "total": 48,
-          "wr": 55.32
+          "total": 49,
+          "wr": 54.17
         },
         {
           "rule": "32G_ROBUST_SETUP_015",
