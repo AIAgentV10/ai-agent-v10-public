@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T16:54:10+03:00",
+    "generated_at_moscow": "2026-06-15T16:57:14+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -15,16 +15,16 @@
       "daily_cap": 35,
       "today_signals_total": 21,
       "today": {
-        "wins": 11,
-        "losses": 9,
+        "wins": 12,
+        "losses": 8,
         "draws": 1,
-        "wr": 55.0
+        "wr": 60.0
       },
       "all_time": {
-        "wins": 17,
-        "losses": 11,
+        "wins": 18,
+        "losses": 10,
         "draws": 1,
-        "wr": 60.71
+        "wr": 64.29
       },
       "recent": [
         {
@@ -41,7 +41,7 @@
           "direction": "BUY",
           "expiration": 3,
           "rule": "32G_ROBUST_SETUP_003",
-          "result": "LOSS"
+          "result": "WIN"
         },
         {
           "time": "2026-06-15T15:13:22",
@@ -134,20 +134,20 @@
           "wr": 66.67
         },
         {
+          "pair": "EUR/JPY",
+          "wins": 4,
+          "losses": 3,
+          "draws": 0,
+          "total": 7,
+          "wr": 57.14
+        },
+        {
           "pair": "AUD/JPY",
           "wins": 3,
           "losses": 3,
           "draws": 1,
           "total": 7,
           "wr": 50.0
-        },
-        {
-          "pair": "EUR/JPY",
-          "wins": 3,
-          "losses": 4,
-          "draws": 0,
-          "total": 7,
-          "wr": 42.86
         }
       ],
       "rule_stats": [
@@ -176,6 +176,14 @@
           "wr": 66.67
         },
         {
+          "rule": "32G_ROBUST_SETUP_003",
+          "wins": 4,
+          "losses": 3,
+          "draws": 0,
+          "total": 7,
+          "wr": 57.14
+        },
+        {
           "rule": "32G_ROBUST_SETUP_006",
           "wins": 2,
           "losses": 2,
@@ -190,14 +198,6 @@
           "draws": 0,
           "total": 2,
           "wr": 50.0
-        },
-        {
-          "rule": "32G_ROBUST_SETUP_003",
-          "wins": 3,
-          "losses": 4,
-          "draws": 0,
-          "total": 7,
-          "wr": 42.86
         }
       ]
     },
