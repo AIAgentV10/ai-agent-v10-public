@@ -1,8 +1,8 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T09:58:53+03:00",
-    "market_mode": "NIGHT SHADOW / OFF LIVE",
+    "generated_at_moscow": "2026-06-15T11:17:40+03:00",
+    "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
       "brain": "V10 Market Setup Brain / 32J core",
@@ -242,6 +242,14 @@
     "pre_signal": {
       "latest": [
         {
+          "pair": "GBP/CAD",
+          "direction": "BUY",
+          "horizon": 3,
+          "rule": "32G_ROBUST_SETUP_005",
+          "context": "3/4",
+          "last_sent_moscow": "2026-06-15T11:17:38+03:00"
+        },
+        {
           "pair": "CHF/JPY",
           "direction": "SELL",
           "horizon": 10,
@@ -272,14 +280,6 @@
           "rule": "32G_ROBUST_SETUP_005",
           "context": "3/4",
           "last_sent_moscow": "2026-06-12T18:44:38+03:00"
-        },
-        {
-          "pair": "AUD/JPY",
-          "direction": "BUY",
-          "horizon": 5,
-          "rule": "32G_ROBUST_SETUP_006",
-          "context": "3/4",
-          "last_sent_moscow": "2026-06-12T18:41:16+03:00"
         }
       ],
       "suppressed_total": 0
@@ -288,7 +288,7 @@
       "latest_session_date": "2026-06-15",
       "latest_session": {
         "approved_records": 0,
-        "rejected_shadow_records": 3450,
+        "rejected_shadow_records": 3452,
         "checked": 0
       },
       "by_pair": [],
