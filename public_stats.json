@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T15:12:35+03:00",
+    "generated_at_moscow": "2026-06-15T15:15:41+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -13,27 +13,35 @@
     "live": {
       "source": "STRICT_TRADE_HISTORY_V10_LIVE_ONLY",
       "daily_cap": 35,
-      "today_signals_total": 17,
+      "today_signals_total": 18,
       "today": {
-        "wins": 9,
+        "wins": 10,
         "losses": 8,
         "draws": 0,
-        "wr": 52.94
+        "wr": 55.56
       },
       "all_time": {
-        "wins": 15,
+        "wins": 16,
         "losses": 10,
         "draws": 0,
-        "wr": 60.0
+        "wr": 61.54
       },
       "recent": [
+        {
+          "time": "2026-06-15T15:13:22",
+          "pair": "CAD/JPY",
+          "direction": "BUY",
+          "expiration": 10,
+          "rule": "32G_ROBUST_SETUP_001",
+          "result": "PENDING"
+        },
         {
           "time": "2026-06-15T15:11:26",
           "pair": "EUR/JPY",
           "direction": "BUY",
           "expiration": 3,
           "rule": "32G_ROBUST_SETUP_003",
-          "result": "PENDING"
+          "result": "WIN"
         },
         {
           "time": "2026-06-15T15:05:52",
@@ -98,14 +106,6 @@
           "expiration": 3,
           "rule": "32G_ROBUST_SETUP_003",
           "result": "WIN"
-        },
-        {
-          "time": "2026-06-15T13:03:10",
-          "pair": "AUD/JPY",
-          "direction": "BUY",
-          "expiration": 5,
-          "rule": "32G_ROBUST_SETUP_006",
-          "result": "LOSS"
         }
       ],
       "pair_stats": [
@@ -134,7 +134,7 @@
           "wr": 66.67
         },
         {
-          "pair": "AUD/JPY",
+          "pair": "EUR/JPY",
           "wins": 3,
           "losses": 3,
           "draws": 0,
@@ -142,12 +142,12 @@
           "wr": 50.0
         },
         {
-          "pair": "EUR/JPY",
-          "wins": 2,
+          "pair": "AUD/JPY",
+          "wins": 3,
           "losses": 3,
           "draws": 0,
-          "total": 5,
-          "wr": 40.0
+          "total": 6,
+          "wr": 50.0
         }
       ],
       "rule_stats": [
@@ -176,6 +176,14 @@
           "wr": 66.67
         },
         {
+          "rule": "32G_ROBUST_SETUP_003",
+          "wins": 3,
+          "losses": 3,
+          "draws": 0,
+          "total": 6,
+          "wr": 50.0
+        },
+        {
           "rule": "32G_ROBUST_SETUP_006",
           "wins": 2,
           "losses": 2,
@@ -190,20 +198,12 @@
           "draws": 0,
           "total": 2,
           "wr": 50.0
-        },
-        {
-          "rule": "32G_ROBUST_SETUP_003",
-          "wins": 2,
-          "losses": 3,
-          "draws": 0,
-          "total": 5,
-          "wr": 40.0
         }
       ]
     },
     "setup": {
       "active_rules_count": 6,
-      "records_total": 340,
+      "records_total": 342,
       "by_rule": [
         {
           "rule": "32G_ROBUST_SETUP_005",
@@ -231,11 +231,11 @@
         },
         {
           "rule": "32G_ROBUST_SETUP_003",
-          "wins": 24,
+          "wins": 25,
           "losses": 17,
           "draws": 2,
-          "total": 43,
-          "wr": 58.54
+          "total": 44,
+          "wr": 59.52
         },
         {
           "rule": "32G_ROBUST_SETUP_001",
