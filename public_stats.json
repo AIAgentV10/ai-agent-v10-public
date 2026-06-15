@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T13:00:53+03:00",
+    "generated_at_moscow": "2026-06-15T13:04:00+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -27,6 +27,14 @@
         "wr": 62.5
       },
       "recent": [
+        {
+          "time": "2026-06-15T13:03:10",
+          "pair": "AUD/JPY",
+          "direction": "BUY",
+          "expiration": 5,
+          "rule": "32G_ROBUST_SETUP_006",
+          "result": "PENDING"
+        },
         {
           "time": "2026-06-15T12:47:44",
           "pair": "CAD/JPY",
@@ -98,14 +106,6 @@
           "expiration": 5,
           "rule": "32G_ROBUST_SETUP_006",
           "result": "WIN"
-        },
-        {
-          "time": "2026-06-12T18:41:07",
-          "pair": "AUD/JPY",
-          "direction": "BUY",
-          "expiration": 30,
-          "rule": "32G_ROBUST_SETUP_004",
-          "result": "LOSS"
         }
       ],
       "pair_stats": [
@@ -187,7 +187,7 @@
     },
     "setup": {
       "active_rules_count": 6,
-      "records_total": 329,
+      "records_total": 330,
       "by_rule": [
         {
           "rule": "32G_ROBUST_SETUP_006",
@@ -258,6 +258,14 @@
     "pre_signal": {
       "latest": [
         {
+          "pair": "AUD/JPY",
+          "direction": "BUY",
+          "horizon": 30,
+          "rule": "32G_ROBUST_SETUP_004",
+          "context": "3/4",
+          "last_sent_moscow": "2026-06-15T13:01:40+03:00"
+        },
+        {
           "pair": "EUR/JPY",
           "direction": "BUY",
           "horizon": 3,
@@ -288,14 +296,6 @@
           "rule": "32G_ROBUST_SETUP_005",
           "context": "3/4",
           "last_sent_moscow": "2026-06-15T12:24:56+03:00"
-        },
-        {
-          "pair": "USD/CHF",
-          "direction": "BUY",
-          "horizon": 3,
-          "rule": "32G_ROBUST_SETUP_005",
-          "context": "3/4",
-          "last_sent_moscow": "2026-06-15T12:05:39+03:00"
         }
       ],
       "suppressed_total": 0
