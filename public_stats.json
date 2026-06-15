@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T11:33:20+03:00",
+    "generated_at_moscow": "2026-06-15T11:36:26+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -179,7 +179,7 @@
     },
     "setup": {
       "active_rules_count": 6,
-      "records_total": 318,
+      "records_total": 319,
       "by_rule": [
         {
           "rule": "32G_ROBUST_SETUP_006",
@@ -214,20 +214,20 @@
           "wr": 60.87
         },
         {
+          "rule": "32G_ROBUST_SETUP_001",
+          "wins": 23,
+          "losses": 19,
+          "draws": 1,
+          "total": 43,
+          "wr": 54.76
+        },
+        {
           "rule": "32G_ROBUST_SETUP_014",
           "wins": 12,
           "losses": 10,
           "draws": 0,
           "total": 22,
           "wr": 54.55
-        },
-        {
-          "rule": "32G_ROBUST_SETUP_001",
-          "wins": 22,
-          "losses": 19,
-          "draws": 1,
-          "total": 42,
-          "wr": 53.66
         },
         {
           "rule": "32G_ROBUST_SETUP_015",
@@ -255,7 +255,7 @@
           "horizon": 10,
           "rule": "32G_ROBUST_SETUP_014",
           "context": "3/4",
-          "last_sent_moscow": "2026-06-15T11:21:05+03:00"
+          "last_sent_moscow": "2026-06-15T11:36:09+03:00"
         },
         {
           "pair": "GBP/CAD",
