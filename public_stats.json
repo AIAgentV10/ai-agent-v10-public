@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T09:27:33+03:00",
+    "generated_at_moscow": "2026-06-15T09:30:41+03:00",
     "market_mode": "NIGHT SHADOW / OFF LIVE",
     "agent": {
       "name": "AI Agent V10",
@@ -214,20 +214,20 @@
           "wr": 57.14
         },
         {
+          "rule": "32G_ROBUST_SETUP_001",
+          "wins": 22,
+          "losses": 19,
+          "draws": 1,
+          "total": 42,
+          "wr": 53.66
+        },
+        {
           "rule": "32G_ROBUST_SETUP_015",
           "wins": 8,
           "losses": 7,
           "draws": 0,
           "total": 15,
           "wr": 53.33
-        },
-        {
-          "rule": "32G_ROBUST_SETUP_001",
-          "wins": 21,
-          "losses": 19,
-          "draws": 1,
-          "total": 41,
-          "wr": 52.5
         },
         {
           "rule": "32G_ROBUST_SETUP_004",
@@ -288,7 +288,7 @@
       "latest_session_date": "2026-06-15",
       "latest_session": {
         "approved_records": 0,
-        "rejected_shadow_records": 3387,
+        "rejected_shadow_records": 3396,
         "checked": 0
       },
       "by_pair": [],
