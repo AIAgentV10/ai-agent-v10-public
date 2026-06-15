@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T23:59:40+03:00",
+    "generated_at_moscow": "2026-06-16T00:02:42+03:00",
     "market_mode": "NIGHT SHADOW / OFF LIVE",
     "agent": {
       "name": "AI Agent V10",
@@ -13,12 +13,12 @@
     "live": {
       "source": "STRICT_TRADE_HISTORY_V10_LIVE_ONLY",
       "daily_cap": 35,
-      "today_signals_total": 21,
+      "today_signals_total": 0,
       "today": {
-        "wins": 12,
-        "losses": 8,
-        "draws": 1,
-        "wr": 60.0
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "wr": 0.0
       },
       "all_time": {
         "wins": 18,
@@ -317,7 +317,7 @@
       "suppressed_total": 0
     },
     "night": {
-      "latest_session_date": "2026-06-15",
+      "latest_session_date": "2026-06-16",
       "latest_session": {
         "approved_records": 0,
         "rejected_shadow_records": 3452,
