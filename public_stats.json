@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T14:38:02+03:00",
+    "generated_at_moscow": "2026-06-15T14:41:11+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -27,6 +27,14 @@
         "wr": 65.22
       },
       "recent": [
+        {
+          "time": "2026-06-15T14:40:06",
+          "pair": "CHF/JPY",
+          "direction": "SELL",
+          "expiration": 10,
+          "rule": "32G_ROBUST_SETUP_014",
+          "result": "PENDING"
+        },
         {
           "time": "2026-06-15T14:14:03",
           "pair": "CAD/JPY",
@@ -97,14 +105,6 @@
           "direction": "BUY",
           "expiration": 10,
           "rule": "32G_ROBUST_SETUP_001",
-          "result": "WIN"
-        },
-        {
-          "time": "2026-06-15T12:19:36",
-          "pair": "AUD/JPY",
-          "direction": "BUY",
-          "expiration": 30,
-          "rule": "32G_ROBUST_SETUP_004",
           "result": "WIN"
         }
       ],
@@ -203,7 +203,7 @@
     },
     "setup": {
       "active_rules_count": 6,
-      "records_total": 336,
+      "records_total": 337,
       "by_rule": [
         {
           "rule": "32G_ROBUST_SETUP_005",
