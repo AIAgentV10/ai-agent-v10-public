@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T12:38:53+03:00",
+    "generated_at_moscow": "2026-06-15T12:41:59+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -13,18 +13,18 @@
     "live": {
       "source": "STRICT_TRADE_HISTORY_V10_LIVE_ONLY",
       "daily_cap": 35,
-      "today_signals_total": 5,
+      "today_signals_total": 6,
       "today": {
-        "wins": 2,
+        "wins": 3,
         "losses": 3,
         "draws": 0,
-        "wr": 40.0
+        "wr": 50.0
       },
       "all_time": {
-        "wins": 8,
+        "wins": 9,
         "losses": 5,
         "draws": 0,
-        "wr": 61.54
+        "wr": 64.29
       },
       "recent": [
         {
@@ -33,7 +33,7 @@
           "direction": "BUY",
           "expiration": 10,
           "rule": "32G_ROBUST_SETUP_001",
-          "result": "PENDING"
+          "result": "WIN"
         },
         {
           "time": "2026-06-15T12:19:36",
@@ -119,11 +119,11 @@
         },
         {
           "pair": "CAD/JPY",
-          "wins": 5,
+          "wins": 6,
           "losses": 1,
           "draws": 0,
-          "total": 6,
-          "wr": 83.33
+          "total": 7,
+          "wr": 85.71
         },
         {
           "pair": "AUD/JPY",
@@ -161,11 +161,11 @@
         },
         {
           "rule": "32G_ROBUST_SETUP_001",
-          "wins": 5,
+          "wins": 6,
           "losses": 1,
           "draws": 0,
-          "total": 6,
-          "wr": 83.33
+          "total": 7,
+          "wr": 85.71
         },
         {
           "rule": "32G_ROBUST_SETUP_003",
@@ -258,6 +258,14 @@
     "pre_signal": {
       "latest": [
         {
+          "pair": "CHF/JPY",
+          "direction": "SELL",
+          "horizon": 10,
+          "rule": "32G_ROBUST_SETUP_014",
+          "context": "3/4",
+          "last_sent_moscow": "2026-06-15T12:41:24+03:00"
+        },
+        {
           "pair": "CAD/JPY",
           "direction": "BUY",
           "horizon": 10,
@@ -272,14 +280,6 @@
           "rule": "32G_ROBUST_SETUP_005",
           "context": "3/4",
           "last_sent_moscow": "2026-06-15T12:24:56+03:00"
-        },
-        {
-          "pair": "CHF/JPY",
-          "direction": "SELL",
-          "horizon": 10,
-          "rule": "32G_ROBUST_SETUP_014",
-          "context": "3/4",
-          "last_sent_moscow": "2026-06-15T12:11:51+03:00"
         },
         {
           "pair": "USD/CHF",
