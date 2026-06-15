@@ -1,7 +1,7 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-15T14:41:11+03:00",
+    "generated_at_moscow": "2026-06-15T14:44:18+03:00",
     "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
@@ -274,6 +274,14 @@
     "pre_signal": {
       "latest": [
         {
+          "pair": "CHF/JPY",
+          "direction": "SELL",
+          "horizon": 10,
+          "rule": "32G_ROBUST_SETUP_014",
+          "context": "3/4",
+          "last_sent_moscow": "2026-06-15T14:41:58+03:00"
+        },
+        {
           "pair": "CAD/JPY",
           "direction": "BUY",
           "horizon": 10,
@@ -296,14 +304,6 @@
           "rule": "32G_ROBUST_SETUP_003",
           "context": "3/4",
           "last_sent_moscow": "2026-06-15T14:21:02+03:00"
-        },
-        {
-          "pair": "CHF/JPY",
-          "direction": "SELL",
-          "horizon": 10,
-          "rule": "32G_ROBUST_SETUP_014",
-          "context": "3/4",
-          "last_sent_moscow": "2026-06-15T14:02:03+03:00"
         },
         {
           "pair": "GBP/CAD",
