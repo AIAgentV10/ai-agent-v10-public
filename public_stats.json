@@ -1,8 +1,8 @@
 {
   "ok": true,
   "data": {
-    "generated_at_moscow": "2026-06-16T09:58:58+03:00",
-    "market_mode": "NIGHT SHADOW / OFF LIVE",
+    "generated_at_moscow": "2026-06-16T10:02:04+03:00",
+    "market_mode": "LIVE SESSION",
     "agent": {
       "name": "AI Agent V10",
       "brain": "V10 Market Setup Brain / 32J core",
